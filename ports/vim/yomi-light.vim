@@ -1,5 +1,5 @@
 " yomi-light.vim — light variant
-" Maintainer: yomi
+" Maintainer: https://github.com/AndrewFila
 " -----------------------------------------------------------
 
 set background=light

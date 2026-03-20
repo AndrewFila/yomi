@@ -1,5 +1,5 @@
 " yomi.vim — dark variant
-" Maintainer: yomi
+" Maintainer: https://github.com/AndrewFila
 " -----------------------------------------------------------
 
 set background=dark
