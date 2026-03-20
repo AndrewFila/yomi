@@ -1,6 +1,6 @@
 # yomi
 
-> *"I decided long ago to drink only hot tea, which cools the blood."*
+> *"Any prize that is worth having requires risk."*
 
 A terminal color scheme with accent colors drawn from a place where the living and the dead share the same sky.
 
