@@ -1,0 +1,23 @@
+{
+    "name": "yomi-light",
+    "background": "#E8DEC8",
+    "foreground": "#282828",
+    "cursorColor": "#A33030",
+    "selectionBackground": "#D4C9B0",
+    "black": "#282828",
+    "red": "#A33030",
+    "green": "#3A7040",
+    "yellow": "#8A6518",
+    "blue": "#2A5890",
+    "purple": "#8A2A48",
+    "cyan": "#307880",
+    "white": "#D4C9B0",
+    "brightBlack": "#8C8078",
+    "brightRed": "#C03838",
+    "brightGreen": "#4A8850",
+    "brightYellow": "#A07820",
+    "brightBlue": "#3A68A8",
+    "brightPurple": "#A83860",
+    "brightCyan": "#3A9098",
+    "brightWhite": "#F9F5EF"
+}

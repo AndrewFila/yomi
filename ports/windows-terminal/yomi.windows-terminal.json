@@ -1,0 +1,23 @@
+{
+    "name": "yomi",
+    "background": "#282828",
+    "foreground": "#EDE0C4",
+    "cursorColor": "#E05858",
+    "selectionBackground": "#3C3836",
+    "black": "#282828",
+    "red": "#BF4040",
+    "green": "#4E9050",
+    "yellow": "#CCA030",
+    "blue": "#4A78B8",
+    "purple": "#BE5070",
+    "cyan": "#62BABF",
+    "white": "#D5C4A1",
+    "brightBlack": "#665C54",
+    "brightRed": "#E05858",
+    "brightGreen": "#78BE70",
+    "brightYellow": "#EAD060",
+    "brightBlue": "#7AAAD8",
+    "brightPurple": "#E080A0",
+    "brightCyan": "#90D8E0",
+    "brightWhite": "#FBF1C7"
+}
