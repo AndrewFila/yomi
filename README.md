@@ -80,23 +80,43 @@ A terminal color scheme with accent colors drawn from a place where the living a
 
 ## Installation
 
-### Kitty
-
-Copy [`ports/yomi.conf`](./ports/yomi.conf) (or [`ports/yomi-light.conf`](./ports/yomi-light.conf)) into your Kitty config directory and add:
-
-```
-include yomi.conf
-```
-
-### Alacritty
-
-Copy the contents of [`ports/yomi.toml`](./ports/yomi.toml) (or [`ports/yomi-light.toml`](./ports/yomi-light.toml)) into your `alacritty.toml`.
-
 ### Windows Terminal
 
-Open **Settings → Open JSON file** and paste the contents of
-[`ports/yomi.windows-terminal.json`](./ports/yomi.windows-terminal.json) (or the light variant)
-into the `schemes` array, then set `"colorScheme": "yomi"` (or `"yomi-light"`) in your profile.
+1. Press `Ctrl+,` to open Settings, then click **Open JSON file** (bottom-left)
+2. Find the `"schemes"` array and paste the contents of
+   [`ports/windows-terminal/yomi.windows-terminal.json`](./ports/windows-terminal/yomi.windows-terminal.json)
+   (or [`yomi-light.windows-terminal.json`](./ports/windows-terminal/yomi-light.windows-terminal.json)) as a new object inside it
+3. Save, then go to your profile → **Appearance** and set **Color scheme** to `yomi` or `yomi-light`
+
+### Vim / Neovim
+
+Copy the file to your colors directory:
+
+```sh
+# Vim
+cp ports/vim/yomi.vim ~/.vim/colors/
+
+# Neovim
+cp ports/vim/yomi.vim ~/.config/nvim/colors/
+```
+
+Then in your `vimrc` or `init.vim`:
+
+```vim
+colorscheme yomi
+" light variant:
+colorscheme yomi-light
+```
+
+### VS Code
+
+Copy the extension folder into your extensions directory and restart VS Code:
+
+```sh
+cp -r ports/vscode ~/.vscode/extensions/yomi
+```
+
+Then open the Command Palette → **Preferences: Color Theme** → select **yomi** or **yomi Light**.
 
 ---
 
@@ -110,14 +130,17 @@ yomi/
 │   ├── yomi-dark-terminal.png
 │   └── yomi-light-terminal.png
 ├── ports/
-│   ├── yomi.conf                        # Kitty (dark)
-│   ├── yomi-light.conf                  # Kitty (light)
-│   ├── yomi.toml                        # Alacritty (dark)
-│   ├── yomi-light.toml                  # Alacritty (light)
-│   ├── yomi.windows-terminal.json       # Windows Terminal (dark)
-│   └── yomi-light.windows-terminal.json # Windows Terminal (light)
-├── yomi.colorscheme                     # Annotated reference (dark)
-├── yomi-light.colorscheme               # Annotated reference (light)
+│   ├── vim/
+│   │   ├── yomi.vim                              # Vim / Neovim (dark)
+│   │   └── yomi-light.vim                        # Vim / Neovim (light)
+│   ├── vscode/
+│   │   ├── package.json
+│   │   └── themes/
+│   │       ├── yomi.json                         # VS Code (dark)
+│   │       └── yomi-light.json                   # VS Code (light)
+│   └── windows-terminal/
+│       ├── yomi.windows-terminal.json            # Windows Terminal (dark)
+│       └── yomi-light.windows-terminal.json      # Windows Terminal (light)
 ├── LICENSE
 └── README.md
 ```

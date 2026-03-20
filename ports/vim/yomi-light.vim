@@ -8,9 +8,9 @@ if exists('syntax_on') | syntax reset | endif
 let g:colors_name = 'yomi-light'
 
 " Palette
-let s:bg0   = '#F3EBD8'
-let s:bg1   = '#E8DEC8'
-let s:bg2   = '#D4C9B0'
+let s:bg0   = '#E8DEC8'
+let s:bg1   = '#D4C9B0'
+let s:bg2   = '#8C8078'
 let s:fg0   = '#282828'
 let s:fg1   = '#5C5248'
 let s:cursor = '#A33030'

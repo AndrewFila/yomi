@@ -2,7 +2,7 @@
     "name": "yomi Light",
     "type": "light",
     "colors": {
-        "editor.background":                  "#F3EBD8",
+        "editor.background":                  "#E8DEC8",
         "editor.foreground":                  "#282828",
         "editorCursor.foreground":            "#A33030",
         "editor.selectionBackground":         "#D4C9B0",
@@ -12,7 +12,7 @@
         "editor.findMatchBackground":         "#8A651855",
         "editor.findMatchHighlightBackground":"#8A651833",
 
-        "activityBar.background":             "#F3EBD8",
+        "activityBar.background":             "#E8DEC8",
         "activityBar.foreground":             "#282828",
         "activityBarBadge.background":        "#2A5890",
         "activityBarBadge.foreground":        "#F9F5EF",
@@ -28,23 +28,23 @@
         "statusBar.noFolderBackground":       "#E8DEC8",
         "statusBarItem.hoverBackground":      "#8C8078",
 
-        "titleBar.activeBackground":          "#F3EBD8",
+        "titleBar.activeBackground":          "#E8DEC8",
         "titleBar.activeForeground":          "#282828",
         "titleBar.inactiveBackground":        "#E8DEC8",
         "titleBar.inactiveForeground":        "#8C8078",
 
-        "tab.activeBackground":               "#F3EBD8",
+        "tab.activeBackground":               "#E8DEC8",
         "tab.activeForeground":               "#282828",
         "tab.inactiveBackground":             "#E8DEC8",
         "tab.inactiveForeground":             "#8C8078",
         "tab.border":                         "#D4C9B0",
 
-        "panel.background":                   "#F3EBD8",
+        "panel.background":                   "#E8DEC8",
         "panel.border":                       "#D4C9B0",
         "panelTitle.activeForeground":        "#282828",
         "panelTitle.inactiveForeground":      "#8C8078",
 
-        "terminal.background":                "#F3EBD8",
+        "terminal.background":                "#E8DEC8",
         "terminal.foreground":                "#282828",
         "terminalCursor.foreground":          "#A33030",
         "terminal.ansiBlack":                 "#282828",
