@@ -96,7 +96,7 @@ A terminal color scheme with accent colors drawn from a place where the living a
 >     Command   = '#2DAC67'
 >     Parameter = '#71A9D5'
 >     String    = '#004C89'
->     Operator  = '#DEAAC8'
+>     Operator  = '#2280CF'
 >     Variable  = '#91000F'
 >     Comment   = '#4A5260'
 >     Keyword   = '#F11A39'
@@ -124,6 +124,33 @@ colorscheme yomi
 " light variant:
 colorscheme yomi-light
 ```
+
+### Xresources
+
+Copy the color file to a location of your choice, then add an `#include` line to your `~/.Xresources`:
+
+```sh
+# Copy the file
+cp ports/xresources/yomi.Xresources ~/.config/xresources/yomi.Xresources
+# or for light:
+cp ports/xresources/yomi-light.Xresources ~/.config/xresources/yomi-light.Xresources
+```
+
+Then in your `~/.Xresources`:
+
+```
+#include "/home/yourname/.config/xresources/yomi.Xresources"
+```
+
+Apply the changes:
+
+```sh
+xrdb -merge ~/.Xresources
+```
+
+Restart your terminal emulator (e.g. `xterm`, `urxvt`) for the colors to take effect.
+
+> **Note:** If `#include` does not work with your setup (some preprocessors require `cpp` to be installed), you can copy the contents of the color file directly into your `~/.Xresources` instead.
 
 ### VS Code
 
@@ -163,9 +190,12 @@ yomi/
 │   │   └── themes/
 │   │       ├── yomi.json                         # VS Code (dark)
 │   │       └── yomi-light.json                   # VS Code (light)
-│   └── windows-terminal/
-│       ├── yomi.windows-terminal.json            # Windows Terminal (dark)
-│       └── yomi-light.windows-terminal.json      # Windows Terminal (light)
+│   ├── windows-terminal/
+│   │   ├── yomi.windows-terminal.json            # Windows Terminal (dark)
+│   │   └── yomi-light.windows-terminal.json      # Windows Terminal (light)
+│   └── xresources/
+│       ├── yomi.Xresources                       # Xresources (dark)
+│       └── yomi-light.Xresources                 # Xresources (light)
 ├── LICENSE
 └── README.md
 ```

@@ -1,0 +1,39 @@
+! yomi Light
+! https://github.com/AndrewFila/yomi
+
+! Background / Foreground
+*background:  #D4D8E4
+*foreground:  #1A1A22
+*cursorColor: #F11A39
+
+! Black
+*color0:  #1A1A22
+*color8:  #4A5260
+
+! Red
+*color1:  #91000F
+*color9:  #F11A39
+
+! Green
+*color2:  #006A4C
+*color10: #2DAC67
+
+! Yellow
+*color3:  #AA8D36
+*color11: #E1BA21
+
+! Blue
+*color4:  #004C89
+*color12: #2280CF
+
+! Magenta
+*color5:  #D179A6
+*color13: #DEAAC8
+
+! Cyan
+*color6:  #2584BF
+*color14: #71A9D5
+
+! White
+*color7:  #9AA0AE
+*color15: #E0E4EC
