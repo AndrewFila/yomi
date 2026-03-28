@@ -1,9 +1,9 @@
 {
-    "name": "yomi",
-    "background": "#0F0F14",
-    "foreground": "#D8D8E0",
+    "name": "yomi Light Soft",
+    "background": "#BFC4D4",
+    "foreground": "#1A1A22",
     "cursorColor": "#F11A39",
-    "selectionBackground": "#2A3038",
+    "selectionBackground": "#98A0BA",
     "black": "#1A1A22",
     "red": "#91000F",
     "green": "#006A4C",

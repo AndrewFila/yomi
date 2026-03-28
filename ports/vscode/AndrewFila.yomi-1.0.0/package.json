@@ -1,0 +1,43 @@
+{
+    "name": "yomi",
+    "displayName": "Yomi",
+    "publisher": "AndrewFila",
+    "description": "A terminal color scheme with accent colors drawn from a place where the living and the dead share the same sky.",
+    "version": "1.0.0",
+    "engines": { "vscode": "^1.70.0" },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "yomi Hard",
+                "uiTheme": "vs-dark",
+                "path": "./themes/yomi-hard.json"
+            },
+            {
+                "label": "yomi",
+                "uiTheme": "vs-dark",
+                "path": "./themes/yomi.json"
+            },
+            {
+                "label": "yomi Soft",
+                "uiTheme": "vs-dark",
+                "path": "./themes/yomi-soft.json"
+            },
+            {
+                "label": "yomi Light Hard",
+                "uiTheme": "vs",
+                "path": "./themes/yomi-light-hard.json"
+            },
+            {
+                "label": "yomi Light",
+                "uiTheme": "vs",
+                "path": "./themes/yomi-light.json"
+            },
+            {
+                "label": "yomi Light Soft",
+                "uiTheme": "vs",
+                "path": "./themes/yomi-light-soft.json"
+            }
+        ]
+    }
+}

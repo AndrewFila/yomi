@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="127.99999"
+   height="127.99999"
+   viewBox="0 0 33.866664 33.866664"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch4">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4" />
+    </linearGradient>
+    <rect
+       x="0"
+       y="0"
+       width="127.99999"
+       height="127.99999"
+       id="rect4" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#1a1a22;fill-opacity:1;stroke:#006a4c;stroke-width:1.9459;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3"
+       width="31.920767"
+       height="31.920767"
+       x="0.97294748"
+       y="0.97294748"
+       ry="9.4297237" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.55151087,0,0,0.55151087,-18.30304,7.3422147)"
+       id="text3"
+       style="font-weight:450;font-size:28px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code,  weight=450';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);fill:#006a4c;fill-opacity:1"><tspan
+         x="36"
+         y="27.5625"
+         id="tspan2"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'Fira Code Bold'"
+           id="tspan1">黄泉</tspan></tspan></text>
+  </g>
+</svg>

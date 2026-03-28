@@ -1,9 +1,9 @@
 {
-    "name": "yomi",
-    "background": "#0F0F14",
+    "name": "yomi Soft",
+    "background": "#2A3038",
     "foreground": "#D8D8E0",
     "cursorColor": "#F11A39",
-    "selectionBackground": "#2A3038",
+    "selectionBackground": "#4E545C",
     "black": "#1A1A22",
     "red": "#91000F",
     "green": "#006A4C",
